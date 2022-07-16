@@ -1,2 +1,48 @@
-*.class
 *.log
+.class
+.history
+.env
+.jvmopts
+
+# sbt specific
+target
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+project/activator-sbt*
+.sbtopts
+.js
+.jvm
+
+# Bloop
+.bloop
+.bsp
+out
+project/metals.sbt
+
+# Sublime specific
+sublime.sbt
+*.sublime
+*.sublime-project
+*.sublime-workspace
+
+# Data
+data/*
+
+# IntelliJ IDEA
+.idea/*
+.idea_modules/*
+projectFilesBackup/
+
+# VS Code
+.metals
+.vscode
+
+# Project
+revision.txt
+.DS_Store
+local.sbt
+site/build
+kafkamate.json
